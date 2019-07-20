@@ -12,7 +12,8 @@ Configuration based on the official [sample config](https://github.com/influxdat
 
 Changes made:
 
-* InfluxDB output url set to `http://influxdb-1:8086` to match [InfluxDB stem](https://github.com/withinstem/influxdb) default hostname.
+* InfluxDB output url set to `udp://influxdb-1:8089` to match [InfluxDB stem](https://github.com/withinstem/influxdb).
+* UDP endpoint database set to `telegraf`.
 * Disabled system inputs: cpu, mem, disk, etc.
 * StatsD input server enabled with default settings.
 
