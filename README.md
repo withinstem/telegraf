@@ -1,4 +1,4 @@
-# Telegraf stem
+# Telegraf StasD stem
 
 Telegraf is a plugin-driven server agent for collecting and sending metrics and events from databases, systems, and IoT sensors.[\*](https://www.influxdata.com/time-series-platform/telegraf/)
 
